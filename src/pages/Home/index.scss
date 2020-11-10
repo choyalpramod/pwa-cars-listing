@@ -1,0 +1,12 @@
+.home-page {
+    padding-top: 24px;
+
+    @media (max-width: 767px) {
+        padding-top: 12px;
+    }
+}
+.list {
+    &>div:last-child {
+        padding: 0 12px;
+    }
+}

@@ -1,0 +1,49 @@
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    color: $textColor;
+}
+
+.listing-body {
+    min-height: 90vh;
+}
+
+a {
+    color: $buttonColor;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    color: #ffffff;
+    background-color: $buttonColor;
+    border-radius: 3px;
+    border-color: transparent;
+    min-width: 150px;
+    min-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    &:active {
+        background-color: $buttonPressedColor;
+    }
+}
+
+.list-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.text-align-center {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.page-notfound {
+    padding-top: 30vh;
+    text-align: center;
+    &__logo img{
+        max-width: 200px;
+        padding-bottom: 20px;
+        @media (max-width: 767px) {
+            max-width: 150px;
+        }
+    }
+    &__title {
+        font-size: 32px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    &__description {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+}

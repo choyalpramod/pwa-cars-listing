@@ -1,0 +1,39 @@
+$imageSize: 100px;
+.cars-list {
+    &__block {
+        padding: 8px 0px;
+    }
+    &__image {
+        position: absolute;
+        height: $imageSize;
+        width: $imageSize;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        
+        &>img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    &__item {
+        position: relative;
+        padding: 12px;
+        border: 1px solid $borderColor;
+    }
+    &__details {
+        margin-left: $imageSize;
+        height: $imageSize;
+        padding-left: 12px;
+    }
+    &__car-name {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    &__car-description {
+        padding-top: 8px;
+    }
+    &__car-action-button {
+        padding-top: 8px;
+    }
+}

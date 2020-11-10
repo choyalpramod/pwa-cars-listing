@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    min-height: 90px;
+    border-top: 1px solid $borderColor;
+    font-size: 14px;
+
+    @media (max-width: 767px){
+        min-height: 60px;
+    }
+}

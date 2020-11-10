@@ -1,0 +1,40 @@
+.filter {
+    padding: 0px 12px;
+
+    @media (max-width: 767px) {
+        padding: 0px 12px;
+    }
+
+    &>div {
+        padding: 24px;
+        border: 1px solid $borderColor;
+    }
+
+    &__label {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+
+    &__field {        
+        padding-bottom: 12px;
+
+        &>select {
+            width: 100%;
+        }
+    }
+
+    &__action {        
+        padding-top: 12px;
+        text-align: right;
+
+        & > button {    
+            @media (max-width: 959px) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__addition-link {
+        padding-top: 24px;
+    }
+}

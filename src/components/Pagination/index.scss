@@ -1,0 +1,21 @@
+.pagination {
+    &__title {
+        font-size: 18px;
+        padding-bottom: 16px;
+    }
+    &__action-link {
+        padding: 0 8px;
+        cursor: pointer;
+        color: $buttonColor;
+
+        &.disable {
+            color: $borderColor;
+            cursor: default;
+        }
+    }
+    &__links-block {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,17 @@
+$borderColor: #EDEDED;
+$textColor: #4A4A4A;
+$buttonColor: #EA7F28;
+$buttonPressedColor: #D37324;
+
+@import './App.scss';
+@import './components/Header/index.scss';
+@import './components/Footer/index.scss';
+@import './components/ScreenLoader/index.scss';
+@import './components/HomeFilter/index.scss';
+@import './components/Pagination/index.scss';
+@import './components/CarsListing/index.scss';
+@import './components/SketonDesign/index.scss';
+@import './pages/ProductDetails/index.scss';
+@import './pages/Favourite/index.scss';
+@import './pages/Home/index.scss';
+@import './pages/NotFound/index.scss';
